@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: var(--colorMainBG);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);  
+}
+
+:root {
+    --colorMainBG: white;
+    --colorBG: #f0f2f5;
+    --colorTitle: #333;
+    --colorInput: #ccc;
+    --colorBGBtn: #4caf50;
+    --colorBGBtnHover: #45a049;
+    --tableBorder: #ddd;
+    --colorTh: #f5f5f5;
+}
